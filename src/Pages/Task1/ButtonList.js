@@ -20,12 +20,12 @@ function ButtonList () {
 			<hr/>
 			<div className="mb-5">
 				<h4>3. Disabled state button:</h4>
-				<ButtonPage size="default" title="Disabled" disable='true'/>
+				<ButtonPage size="default" title="Disabled" isDisabled='true'/>
 			</div>
 			<hr/>
 			<div className='mb-5'>
 				<h4>4. Loading state button:</h4>
-				<ButtonPage size="default" title="Loading..." load="true"/>
+				<ButtonPage size="default" title="Loading..." isBusy="true"/>
 			</div>
 			<hr/>
 			<Link to='/' className='btn btn-secondary'>Go to home</Link>
